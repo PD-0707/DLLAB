@@ -1,1 +1,15 @@
+Google colab works on VM in google's servers
+so we need to connect colab and drive for accessing drive files for that we use MOUNTING
+from google.colab import drive
+drive.mount('/content/drive')
+content - main workspace in colab
+attach my google drive in the folder drive inside content
+then we access the files in MY DRIVE
 
+next for directly downloading datasets from kaggle we need opendatasets
+so install opendatasets
+then od.download(link)
+it will ask kaggle username , key (setting api key)
+
+kagglehub - library
+for dowmloading kaggle dataset

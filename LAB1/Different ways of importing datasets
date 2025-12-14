@@ -13,3 +13,10 @@ it will ask kaggle username , key (setting api key)
 
 kagglehub - library
 for dowmloading kaggle dataset
+
+from google import files
+importing files from system and reading the csv file
+
+importing pandas
+tensorflow as tf
+from tensorflow import keras and reading csv file
